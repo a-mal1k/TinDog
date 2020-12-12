@@ -1,1 +1,1 @@
-TinDog Starting Files
+TinDog Simple template UI for website. 
