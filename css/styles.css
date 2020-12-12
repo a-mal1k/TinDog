@@ -1,0 +1,109 @@
+body{
+    font-family: Montserrat;
+}
+#title{
+    background-color: blanchedalmond;
+}
+h1{
+    font-family: Montserrat-Blue;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 10%;
+}
+#a{
+    color:black;
+    font-family: Algerian;
+    font-weight: bold;
+}
+#head{
+    color: black;
+    font-family: Algerian;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hra{
+    border: 1.5px solid black;
+    margin-bottom: 25px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+.title-image{
+    width: 45%;
+    transform: rotate(30deg);
+    position: absolute; 
+    right: 30%;
+         
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;  /*   or we can make position to absolute and z-index of .title-image to 0  */
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color:#ef8989;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #f62525;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+h2,h3{
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5
+    ;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+@media (max-width: 1024px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+#footer{
+    text-align: center;
+    padding: 3% 10%;
+}
+.social-icon{
+    margin: 20px 10px;
+}
